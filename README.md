@@ -1,4 +1,4 @@
-#usuage:run main.py with argument as pancard to be processed for Name,Father Name and date of birth
-# python main.py --image jolly.png
-
-#Flask based "file upload" and "Pan details extract" are two  API is under development.
+#usuage:run app.py flask program to extract pancard details from images stored in a folder 
+#extract filed as dictionary: Name,Father Name and date of birth
+# docker build --tag pan-card-extract .(build image)
+# docker run -d -p 5000:5000 pan-card-extract
